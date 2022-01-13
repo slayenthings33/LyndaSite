@@ -156,7 +156,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		/* color: #666; */
 	}
 
 	em, i {
@@ -209,6 +209,32 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+/**********/
+/* ADDED  */
+/**********/
+
+ header h2, header strong {
+	animation: drop-in 1s ease 300ms backwards;
+}
+
+header p {
+	animation: drop-in 1200ms ease 600ms backwards;
+   }
+
+footer a {
+	animation: drop-in 2000ms ease 900ms backwards;
+}
+   
+ @keyframes drop-in {
+	from {
+	 opacity: 0;
+	 transform: translateY(-100px);
+	}
+	to {
+	 opacity: 1;
+	 transform: translate(0px);
+	}
+   }
 
 /* Container */
 
@@ -2209,7 +2235,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			margin: 0 0 0 0;
+			margin: 0 0 0 -110px;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
@@ -2244,6 +2270,7 @@ input, select, textarea {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
+				height: 100vh;
 			}
 
 			#main > section.one {
@@ -2361,32 +2388,6 @@ input, select, textarea {
 						margin-left: -1.25em;
 						line-height: 2.25em;
 					}
-/*
-					.overflow-hidden {
-						overflow: hidden;
-					   }
-					   
-					   #drop-in {
-						animation: drop-in 1s ease 200ms backwards;
-					   }
-					   
-					   #drop-in-2 {
-						animation: drop-in 1200ms ease 500ms backwards;
-					   }
-					   
-					   @keyframes drop-in {
-						from {
-						 opacity: 0;
-						 transform: translateY(-100px);
-						}
-						to {
-						 opacity: 1;
-						 transform: translate(0px);
-						}
-					   }
-
-*/
-
 		/* Footer */
 
 			#footer {
