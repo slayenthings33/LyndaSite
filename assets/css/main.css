@@ -2209,7 +2209,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			margin: 0 0 0 -110px;
+			margin: 0 0 0 0;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
@@ -2361,6 +2361,31 @@ input, select, textarea {
 						margin-left: -1.25em;
 						line-height: 2.25em;
 					}
+/*
+					.overflow-hidden {
+						overflow: hidden;
+					   }
+					   
+					   #drop-in {
+						animation: drop-in 1s ease 200ms backwards;
+					   }
+					   
+					   #drop-in-2 {
+						animation: drop-in 1200ms ease 500ms backwards;
+					   }
+					   
+					   @keyframes drop-in {
+						from {
+						 opacity: 0;
+						 transform: translateY(-100px);
+						}
+						to {
+						 opacity: 1;
+						 transform: translate(0px);
+						}
+					   }
+
+*/
 
 		/* Footer */
 
