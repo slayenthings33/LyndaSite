@@ -242,7 +242,7 @@ header p {
 	animation: drop-in 1200ms ease 600ms backwards;
 	color: #fff;
 	opacity: 1;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Itim', cursive;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
@@ -2288,7 +2288,7 @@ footer a {
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: #fff;
-					font-size: 3em;
+					font-size: 2.25em;
 					font-family: 'Itim', cursive;
 					-webkit-text-stroke-width: 2px;
 					-webkit-text-stroke-color: black;
