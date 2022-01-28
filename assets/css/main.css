@@ -228,8 +228,9 @@ video {
 }
 #aboutMe {
 	box-shadow: 0 5px 12px rgb(0 0 0 / 0.6);
-	min-width: 100%;
-	max-width: 120%;
+	width: 45vw;
+	right: 40% !important;
+	border: 2px red dotted;
 	overflow: hidden;
 }
 
@@ -270,6 +271,15 @@ footer a {
 	 transform: translate(0px);
 	}
    }
+   @media screen and (max-width: 900px) {
+	  
+
+	#aboutMe {
+		min-width: 80vw;
+		position: relative;
+		right: 17vw;
+	}
+}
 
 /* Container */
 
@@ -2663,7 +2673,7 @@ footer a {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
+		
 			body, input, textarea, select {
 				font-size: 14pt;
 			}
