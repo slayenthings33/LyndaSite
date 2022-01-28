@@ -228,18 +228,7 @@ video {
 }
 #aboutMe {
 	box-shadow: 0 5px 12px rgb(0 0 0 / 0.6);
-	width: 45vw;
-	right: 40% !important;
-	border: 2px red dotted;
-	overflow: hidden;
-}
-
-section {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	align-content: center;
+	width: 70%;
 }
 
  header h2, header strong {
