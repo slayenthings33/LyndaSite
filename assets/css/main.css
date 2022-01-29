@@ -244,6 +244,9 @@ header p {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
    }
+   .loud {
+	   
+   }
 
 footer a {
 	animation: drop-in 2000ms ease 900ms backwards;
