@@ -2239,7 +2239,7 @@ footer a {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #2596be;
 					}
 
 /* Footer */
@@ -2348,7 +2348,7 @@ footer a {
 			transition: transform .5s;
 		}
 		.porfolioImage:hover {
-			transform: scale(1.5); 
+			transform: scale(1.55); 
 		}
 	}
 
